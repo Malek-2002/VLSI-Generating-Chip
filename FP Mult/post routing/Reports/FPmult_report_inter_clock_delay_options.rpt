@@ -1,0 +1,31 @@
+
+*******************************************
+Report   : ICDB options
+Design   : FPmult
+Version  : G-2012.06-ICC-SP2
+Date     : Tue Dec 29 03:33:27 2015
+
+*******************************************
+
+
+ Balance groups definitions 
+ -------------------------- 
+ Group Name | List of clocks in balance group
+
+
+
+ Clock Target delay  settings 
+ ------------------------------ 
+  Clock Name
+           | User given target delay
+
+
+
+ Clock offset delay settings 
+ --------------------------- 
+  Offset from clock | offset to clock
+                               | delay offset value
+
+  Honour sdc constraint options is NOT set
+ 
+1

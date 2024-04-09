@@ -1,0 +1,3996 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 200
+Design : floating_point_adder
+Version: G-2012.06-ICC-SP2
+Date   : Tue Dec 29 03:23:23 2015
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: worst_low   Library: NangateOpenCellLibrary_ss0p95vn40c
+	Parasitic source    : LPE
+	Parasitic mode      : RealRC
+	Extraction mode     : MIN_MAX
+	Extraction derating : -40/-40/-40
+
+Information: Percent of Arnoldi-based delays =  0.00%
+
+  Startpoint: NEG_INF_reg_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: NEG_INF_reg
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  NEG_INF_reg_reg/CK (DFF_X1)              0.00       0.05 r
+  NEG_INF_reg_reg/QN (DFF_X1)              0.06       0.12 f
+  U87/ZN (INV_X1)                          0.01 &     0.13 r
+  NEG_INF_reg (out)                        0.00 &     0.13 r
+  data arrival time                                   0.13
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.13
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.33
+
+
+  Startpoint: result_reg_reg_29_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[29]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_29_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_29_/QN (DFF_X1)           0.06       0.12 f
+  U108/ZN (INV_X1)                         0.01 &     0.13 r
+  result_reg[29] (out)                     0.00 &     0.13 r
+  data arrival time                                   0.13
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.13
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.33
+
+
+  Startpoint: NAN_reg_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: NAN_reg (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  NAN_reg_reg/CK (DFF_X1)                  0.00       0.05 r
+  NAN_reg_reg/QN (DFF_X1)                  0.06       0.12 f
+  U115/ZN (INV_X1)                         0.01 &     0.13 r
+  NAN_reg (out)                            0.00 &     0.13 r
+  data arrival time                                   0.13
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.13
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.33
+
+
+  Startpoint: INF_reg_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: INF_reg (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  INF_reg_reg/CK (DFF_X1)                  0.00       0.05 r
+  INF_reg_reg/QN (DFF_X1)                  0.06       0.12 f
+  U113/ZN (INV_X1)                         0.01 &     0.13 r
+  INF_reg (out)                            0.00 &     0.13 r
+  data arrival time                                   0.13
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.13
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.33
+
+
+  Startpoint: result_reg_reg_31_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[31]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_31_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_31_/QN (DFF_X1)           0.06       0.12 f
+  U114/ZN (INV_X1)                         0.01 &     0.13 r
+  result_reg[31] (out)                     0.00 &     0.13 r
+  data arrival time                                   0.13
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.13
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.33
+
+
+  Startpoint: result_reg_reg_23_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[23]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_23_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_23_/QN (DFF_X1)           0.06       0.12 f
+  U103/ZN (INV_X1)                         0.01 &     0.13 r
+  result_reg[23] (out)                     0.00 &     0.13 r
+  data arrival time                                   0.13
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.13
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.33
+
+
+  Startpoint: ERR_reg_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ERR_reg (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  ERR_reg_reg/CK (DFF_X1)                  0.00       0.05 r
+  ERR_reg_reg/QN (DFF_X1)                  0.06       0.12 f
+  U112/ZN (INV_X1)                         0.01 &     0.13 r
+  ERR_reg (out)                            0.00 &     0.13 r
+  data arrival time                                   0.13
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.13
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.33
+
+
+  Startpoint: result_reg_reg_25_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[25]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_25_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_25_/QN (DFF_X1)           0.06       0.12 f
+  U109/ZN (INV_X1)                         0.01 &     0.13 r
+  result_reg[25] (out)                     0.00 &     0.13 r
+  data arrival time                                   0.13
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.13
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.33
+
+
+  Startpoint: result_reg_reg_20_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[20]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_20_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_20_/QN (DFF_X1)           0.06       0.12 f
+  U98/ZN (INV_X1)                          0.01 &     0.13 r
+  result_reg[20] (out)                     0.00 &     0.13 r
+  data arrival time                                   0.13
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.13
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.33
+
+
+  Startpoint: result_reg_reg_30_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[30]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_30_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_30_/QN (DFF_X1)           0.06       0.12 f
+  U111/ZN (INV_X1)                         0.01 &     0.13 r
+  result_reg[30] (out)                     0.00 &     0.13 r
+  data arrival time                                   0.13
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.13
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.33
+
+
+  Startpoint: result_reg_reg_26_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[26]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_26_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_26_/QN (DFF_X1)           0.06       0.12 f
+  U106/ZN (INV_X1)                         0.01 &     0.13 r
+  result_reg[26] (out)                     0.00 &     0.13 r
+  data arrival time                                   0.13
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.13
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.33
+
+
+  Startpoint: result_reg_reg_28_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[28]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_28_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_28_/QN (DFF_X1)           0.06       0.12 f
+  U110/ZN (INV_X1)                         0.01 &     0.13 r
+  result_reg[28] (out)                     0.00 &     0.13 r
+  data arrival time                                   0.13
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.13
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.33
+
+
+  Startpoint: result_reg_reg_19_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[19]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_19_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_19_/QN (DFF_X1)           0.06       0.12 f
+  U102/ZN (INV_X1)                         0.01 &     0.13 r
+  result_reg[19] (out)                     0.00 &     0.13 r
+  data arrival time                                   0.13
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.13
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.33
+
+
+  Startpoint: result_reg_reg_22_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[22]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_22_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_22_/QN (DFF_X1)           0.06       0.12 f
+  U105/ZN (INV_X1)                         0.01 &     0.12 r
+  result_reg[22] (out)                     0.00 &     0.13 r
+  data arrival time                                   0.13
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.13
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.33
+
+
+  Startpoint: result_reg_reg_27_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[27]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_27_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_27_/QN (DFF_X1)           0.06       0.12 f
+  U107/ZN (INV_X1)                         0.01 &     0.13 r
+  result_reg[27] (out)                     0.00 &     0.13 r
+  data arrival time                                   0.13
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.13
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.33
+
+
+  Startpoint: result_reg_reg_24_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[24]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_24_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_24_/QN (DFF_X1)           0.06       0.12 f
+  U104/ZN (INV_X1)                         0.01 &     0.13 r
+  result_reg[24] (out)                     0.00 &     0.13 r
+  data arrival time                                   0.13
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.13
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.33
+
+
+  Startpoint: result_reg_reg_14_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[14]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_14_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_14_/QN (DFF_X1)           0.06       0.12 f
+  U77/ZN (INV_X1)                          0.01 &     0.12 r
+  result_reg[14] (out)                     0.00 &     0.12 r
+  data arrival time                                   0.12
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.12
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.32
+
+
+  Startpoint: result_reg_reg_21_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[21]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_21_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_21_/QN (DFF_X1)           0.06       0.12 f
+  U101/ZN (INV_X1)                         0.01 &     0.12 r
+  result_reg[21] (out)                     0.00 &     0.12 r
+  data arrival time                                   0.12
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.12
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.32
+
+
+  Startpoint: result_reg_reg_13_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[13]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_13_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_13_/QN (DFF_X1)           0.06       0.12 f
+  U78/ZN (INV_X1)                          0.01 &     0.12 r
+  result_reg[13] (out)                     0.00 &     0.12 r
+  data arrival time                                   0.12
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.12
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.32
+
+
+  Startpoint: result_reg_reg_11_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[11]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_11_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_11_/QN (DFF_X1)           0.06       0.12 f
+  U80/ZN (INV_X1)                          0.01 &     0.12 r
+  result_reg[11] (out)                     0.00 &     0.12 r
+  data arrival time                                   0.12
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.12
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.32
+
+
+  Startpoint: result_reg_reg_12_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[12]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_12_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_12_/QN (DFF_X1)           0.06       0.12 f
+  U79/ZN (INV_X1)                          0.01 &     0.12 r
+  result_reg[12] (out)                     0.00 &     0.12 r
+  data arrival time                                   0.12
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.12
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.32
+
+
+  Startpoint: result_reg_reg_15_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[15]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_15_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_15_/QN (DFF_X1)           0.06       0.12 f
+  U76/ZN (INV_X1)                          0.01 &     0.12 r
+  result_reg[15] (out)                     0.00 &     0.12 r
+  data arrival time                                   0.12
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.12
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.32
+
+
+  Startpoint: result_reg_reg_9_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[9]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_9_/CK (DFF_X1)            0.00       0.05 r
+  result_reg_reg_9_/QN (DFF_X1)            0.06       0.12 f
+  U61/ZN (INV_X1)                          0.01 &     0.12 r
+  result_reg[9] (out)                      0.00 &     0.12 r
+  data arrival time                                   0.12
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.12
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.32
+
+
+  Startpoint: result_reg_reg_10_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[10]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_10_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_10_/QN (DFF_X1)           0.06       0.12 f
+  U62/ZN (INV_X1)                          0.01 &     0.12 r
+  result_reg[10] (out)                     0.00 &     0.12 r
+  data arrival time                                   0.12
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.12
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.32
+
+
+  Startpoint: result_reg_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[8]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_8_/CK (DFF_X1)            0.00       0.05 r
+  result_reg_reg_8_/QN (DFF_X1)            0.06       0.12 f
+  U60/ZN (INV_X1)                          0.01 &     0.12 r
+  result_reg[8] (out)                      0.00 &     0.12 r
+  data arrival time                                   0.12
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.12
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.32
+
+
+  Startpoint: result_reg_reg_17_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[17]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_17_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_17_/QN (DFF_X1)           0.06       0.12 f
+  U100/ZN (INV_X1)                         0.01 &     0.12 r
+  result_reg[17] (out)                     0.00 &     0.12 r
+  data arrival time                                   0.12
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.12
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.32
+
+
+  Startpoint: result_reg_reg_16_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[16]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_16_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_16_/QN (DFF_X1)           0.06       0.12 f
+  U71/ZN (INV_X1)                          0.01 &     0.12 r
+  result_reg[16] (out)                     0.00 &     0.12 r
+  data arrival time                                   0.12
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.12
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.32
+
+
+  Startpoint: result_reg_reg_18_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[18]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_18_/CK (DFF_X1)           0.00       0.05 r
+  result_reg_reg_18_/QN (DFF_X1)           0.06       0.12 f
+  U99/ZN (INV_X1)                          0.01 &     0.12 r
+  result_reg[18] (out)                     0.00 &     0.12 r
+  data arrival time                                   0.12
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.12
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.32
+
+
+  Startpoint: result_reg_reg_7_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[7]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_7_/CK (DFF_X1)            0.00       0.05 r
+  result_reg_reg_7_/QN (DFF_X1)            0.06       0.12 f
+  U59/ZN (INV_X1)                          0.01 &     0.12 r
+  result_reg[7] (out)                      0.00 &     0.12 r
+  data arrival time                                   0.12
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.12
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.32
+
+
+  Startpoint: result_reg_reg_6_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[6]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_6_/CK (DFF_X1)            0.00       0.05 r
+  result_reg_reg_6_/QN (DFF_X1)            0.06       0.12 f
+  U58/ZN (INV_X1)                          0.01 &     0.12 r
+  result_reg[6] (out)                      0.00 &     0.12 r
+  data arrival time                                   0.12
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.12
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.32
+
+
+  Startpoint: result_reg_reg_4_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[4]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_4_/CK (DFF_X1)            0.00       0.05 r
+  result_reg_reg_4_/QN (DFF_X1)            0.06       0.12 f
+  U56/ZN (INV_X1)                          0.01 &     0.12 r
+  result_reg[4] (out)                      0.00 &     0.12 r
+  data arrival time                                   0.12
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.12
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.32
+
+
+  Startpoint: result_reg_reg_5_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[5]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_5_/CK (DFF_X1)            0.00       0.05 r
+  result_reg_reg_5_/QN (DFF_X1)            0.06       0.12 f
+  U57/ZN (INV_X1)                          0.01 &     0.12 r
+  result_reg[5] (out)                      0.00 &     0.12 r
+  data arrival time                                   0.12
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.12
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.32
+
+
+  Startpoint: result_reg_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[3]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_3_/CK (DFF_X1)            0.00       0.05 r
+  result_reg_reg_3_/QN (DFF_X1)            0.06       0.11 f
+  U55/ZN (INV_X1)                          0.01 &     0.12 r
+  result_reg[3] (out)                      0.00 &     0.12 r
+  data arrival time                                   0.12
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.12
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.32
+
+
+  Startpoint: result_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[1]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_1_/CK (DFF_X1)            0.00       0.05 r
+  result_reg_reg_1_/QN (DFF_X1)            0.06       0.11 f
+  U52/ZN (INV_X1)                          0.01 &     0.12 r
+  result_reg[1] (out)                      0.00 &     0.12 r
+  data arrival time                                   0.12
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.12
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.32
+
+
+  Startpoint: result_reg_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[0]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_0_/CK (DFF_X1)            0.00       0.05 r
+  result_reg_reg_0_/QN (DFF_X1)            0.06       0.11 f
+  U53/ZN (INV_X1)                          0.01 &     0.12 r
+  result_reg[0] (out)                      0.00 &     0.12 r
+  data arrival time                                   0.12
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.12
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.32
+
+
+  Startpoint: result_reg_reg_2_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result_reg[2]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.05       0.05
+  result_reg_reg_2_/CK (DFF_X1)            0.00       0.05 r
+  result_reg_reg_2_/QN (DFF_X1)            0.06       0.11 f
+  U54/ZN (INV_X1)                          0.01 &     0.12 r
+  result_reg[2] (out)                      0.00 &     0.12 r
+  data arrival time                                   0.12
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.00       5.00
+  clock uncertainty                       -0.20       4.80
+  output external delay                  -20.00     -15.20
+  data required time                                -15.20
+  -----------------------------------------------------------
+  data required time                                -15.20
+  data arrival time                                  -0.12
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.32
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_20_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U84/ZN (INV_X8)                          0.01 &    20.01 r
+  U1599/ZN (NAND2_X2)                      0.02 &    20.03 f
+  U1340/ZN (NOR2_X1)                       0.04 &    20.07 r
+  result_reg_reg_20_/D (DFF_X1)            0.00 &    20.07 r
+  data arrival time                                  20.07
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_20_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.04       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.07
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.25
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_13_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U84/ZN (INV_X8)                          0.01 &    20.01 r
+  U1599/ZN (NAND2_X2)                      0.02 &    20.03 f
+  U1469/ZN (NOR2_X1)                       0.04 &    20.07 r
+  result_reg_reg_13_/D (DFF_X1)            0.00 &    20.07 r
+  data arrival time                                  20.07
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_13_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.04       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.07
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.25
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_19_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U84/ZN (INV_X8)                          0.01 &    20.01 r
+  U1599/ZN (NAND2_X2)                      0.02 &    20.03 f
+  U1341/ZN (NOR2_X1)                       0.03 &    20.06 r
+  result_reg_reg_19_/D (DFF_X1)            0.00 &    20.06 r
+  data arrival time                                  20.06
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_19_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.04       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.06
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.25
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: INF_reg_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U81/ZN (NOR2_X2)                         0.03 &    20.03 r
+  U68/ZN (NAND2_X1)                        0.02 &    20.04 f
+  U1797/ZN (OAI21_X1)                      0.02 &    20.06 r
+  INF_reg_reg/D (DFF_X1)                   0.00 &    20.06 r
+  data arrival time                                  20.06
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  INF_reg_reg/CK (DFF_X1)                  0.00       4.85 r
+  library setup time                      -0.04       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.06
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.24
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U85/ZN (INV_X16)                         0.01 &    20.01 r
+  U88/ZN (NAND2_X2)                        0.01 &    20.03 f
+  U1460/ZN (NOR2_X1)                       0.03 &    20.06 r
+  result_reg_reg_5_/D (DFF_X1)             0.00 &    20.06 r
+  data arrival time                                  20.06
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_5_/CK (DFF_X1)            0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.06
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.24
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U85/ZN (INV_X16)                         0.01 &    20.01 r
+  U88/ZN (NAND2_X2)                        0.01 &    20.03 f
+  U1458/ZN (NOR2_X1)                       0.03 &    20.06 r
+  result_reg_reg_6_/D (DFF_X1)             0.00 &    20.06 r
+  data arrival time                                  20.06
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_6_/CK (DFF_X1)            0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.06
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.24
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: NAN_reg_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U81/ZN (NOR2_X2)                         0.03 &    20.03 r
+  U64/ZN (NAND2_X1)                        0.02 &    20.04 f
+  U1/ZN (NAND2_X1)                         0.02 &    20.06 r
+  NAN_reg_reg/D (DFF_X1)                   0.00 &    20.06 r
+  data arrival time                                  20.06
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  NAN_reg_reg/CK (DFF_X1)                  0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.06
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: NEG_INF_reg_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U85/ZN (INV_X16)                         0.01 &    20.01 r
+  U3/ZN (NAND2_X1)                         0.02 &    20.03 f
+  U66/ZN (NOR2_X1)                         0.02 &    20.05 r
+  NEG_INF_reg_reg/D (DFF_X1)               0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  NEG_INF_reg_reg/CK (DFF_X1)              0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_6_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U86/ZN (INV_X32)                         0.01 &    20.01 r
+  U1960/ZN (AND2_X1)                       0.04 &    20.05 r
+  b_reg_6_/D (DFF_X1)                      0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_6_/CK (DFF_X1)                     0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_4_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U86/ZN (INV_X32)                         0.01 &    20.01 r
+  U1958/ZN (AND2_X1)                       0.04 &    20.05 r
+  b_reg_4_/D (DFF_X1)                      0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_4_/CK (DFF_X1)                     0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_15_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U86/ZN (INV_X32)                         0.01 &    20.01 r
+  U1995/ZN (AND2_X1)                       0.04 &    20.05 r
+  b_reg_15_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_15_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_17_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U86/ZN (INV_X32)                         0.01 &    20.01 r
+  U1997/ZN (AND2_X1)                       0.04 &    20.05 r
+  b_reg_17_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_17_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_9_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U86/ZN (INV_X32)                         0.01 &    20.01 r
+  U1963/ZN (AND2_X1)                       0.04 &    20.05 r
+  b_reg_9_/D (DFF_X1)                      0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_9_/CK (DFF_X1)                     0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_8_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U86/ZN (INV_X32)                         0.01 &    20.01 r
+  U1962/ZN (AND2_X1)                       0.04 &    20.05 r
+  b_reg_8_/D (DFF_X1)                      0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_8_/CK (DFF_X1)                     0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_11_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U86/ZN (INV_X32)                         0.01 &    20.01 r
+  U1965/ZN (AND2_X1)                       0.04 &    20.05 r
+  b_reg_11_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_11_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_16_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U86/ZN (INV_X32)                         0.01 &    20.01 r
+  U1996/ZN (AND2_X1)                       0.04 &    20.05 r
+  b_reg_16_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_16_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_12_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U86/ZN (INV_X32)                         0.01 &    20.01 r
+  U1966/ZN (AND2_X1)                       0.04 &    20.05 r
+  b_reg_12_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_12_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_5_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U86/ZN (INV_X32)                         0.01 &    20.01 r
+  U1959/ZN (AND2_X1)                       0.04 &    20.05 r
+  b_reg_5_/D (DFF_X1)                      0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_5_/CK (DFF_X1)                     0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_25_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U86/ZN (INV_X32)                         0.01 &    20.01 r
+  U2005/ZN (AND2_X1)                       0.04 &    20.05 r
+  b_reg_25_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_25_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_14_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U86/ZN (INV_X32)                         0.01 &    20.01 r
+  U1994/ZN (AND2_X1)                       0.04 &    20.05 r
+  b_reg_14_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_14_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_28_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U86/ZN (INV_X32)                         0.01 &    20.01 r
+  U2008/ZN (AND2_X1)                       0.04 &    20.05 r
+  b_reg_28_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_28_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_31_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U85/ZN (INV_X16)                         0.01 &    20.01 r
+  U1993/ZN (AND2_X1)                       0.03 &    20.05 r
+  a_reg_31_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_31_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_30_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U86/ZN (INV_X32)                         0.01 &    20.01 r
+  U2009/ZN (AND2_X1)                       0.04 &    20.05 r
+  b_reg_30_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_30_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_22_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1984/ZN (AND2_X1)                       0.03 &    20.05 r
+  a_reg_22_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_22_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_10_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U72/ZN (INV_X32)                         0.01 &    20.01 r
+  U1964/ZN (AND2_X1)                       0.04 &    20.05 r
+  b_reg_10_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_10_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_21_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1983/ZN (AND2_X1)                       0.03 &    20.05 r
+  a_reg_21_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_21_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_31_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U85/ZN (INV_X16)                         0.01 &    20.01 r
+  U2010/ZN (AND2_X1)                       0.03 &    20.05 r
+  b_reg_31_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_31_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_13_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U72/ZN (INV_X32)                         0.01 &    20.01 r
+  U1967/ZN (AND2_X1)                       0.04 &    20.05 r
+  b_reg_13_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_13_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_7_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U72/ZN (INV_X32)                         0.01 &    20.01 r
+  U1961/ZN (AND2_X1)                       0.04 &    20.05 r
+  b_reg_7_/D (DFF_X1)                      0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_7_/CK (DFF_X1)                     0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U72/ZN (INV_X32)                         0.01 &    20.01 r
+  U1677/ZN (AND2_X1)                       0.04 &    20.05 r
+  result_reg_reg_3_/D (DFF_X1)             0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_3_/CK (DFF_X1)            0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_0_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U72/ZN (INV_X32)                         0.01 &    20.01 r
+  U1954/ZN (AND2_X1)                       0.04 &    20.05 r
+  b_reg_0_/D (DFF_X1)                      0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_0_/CK (DFF_X1)                     0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.23
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U85/ZN (INV_X16)                         0.01 &    20.01 r
+  U1686/ZN (AND2_X1)                       0.03 &    20.05 r
+  result_reg_reg_2_/D (DFF_X1)             0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_2_/CK (DFF_X1)            0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_23_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1985/ZN (AND2_X1)                       0.03 &    20.05 r
+  a_reg_23_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_23_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_26_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U86/ZN (INV_X32)                         0.01 &    20.01 r
+  U2006/ZN (AND2_X1)                       0.04 &    20.05 r
+  b_reg_26_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_26_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_30_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U72/ZN (INV_X32)                         0.01 &    20.01 r
+  U1992/ZN (AND2_X1)                       0.04 &    20.05 r
+  a_reg_30_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_30_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_19_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U72/ZN (INV_X32)                         0.01 &    20.01 r
+  U1999/ZN (AND2_X1)                       0.03 &    20.05 r
+  b_reg_19_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_19_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_16_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1700/ZN (AND2_X1)                       0.03 &    20.05 r
+  result_reg_reg_16_/D (DFF_X1)            0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_16_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_22_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U72/ZN (INV_X32)                         0.01 &    20.01 r
+  U2002/ZN (AND2_X1)                       0.03 &    20.05 r
+  b_reg_22_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_22_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_27_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U85/ZN (INV_X16)                         0.01 &    20.01 r
+  U2007/ZN (AND2_X1)                       0.03 &    20.05 r
+  b_reg_27_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_27_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_14_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1976/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_14_/D (DFF_X1)                     0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_14_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_29_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U72/ZN (INV_X32)                         0.01 &    20.01 r
+  U1991/ZN (AND2_X1)                       0.04 &    20.05 r
+  a_reg_29_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_29_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_21_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U72/ZN (INV_X32)                         0.01 &    20.01 r
+  U2001/ZN (AND2_X1)                       0.03 &    20.05 r
+  b_reg_21_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_21_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_20_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U72/ZN (INV_X32)                         0.01 &    20.01 r
+  U2000/ZN (AND2_X1)                       0.03 &    20.05 r
+  b_reg_20_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_20_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_24_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U72/ZN (INV_X32)                         0.01 &    20.01 r
+  U2004/ZN (AND2_X1)                       0.03 &    20.05 r
+  b_reg_24_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_24_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_23_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U72/ZN (INV_X32)                         0.01 &    20.01 r
+  U2003/ZN (AND2_X1)                       0.03 &    20.05 r
+  b_reg_23_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_23_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_20_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1982/ZN (AND2_X1)                       0.03 &    20.05 r
+  a_reg_20_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_20_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_15_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1977/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_15_/D (DFF_X1)                     0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_15_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1698/ZN (AND2_X1)                       0.03 &    20.05 r
+  result_reg_reg_15_/D (DFF_X1)            0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_15_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_16_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1978/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_16_/D (DFF_X1)                     0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_16_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_12_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1974/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_12_/D (DFF_X1)                     0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_12_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_19_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1981/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_19_/D (DFF_X1)                     0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_19_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_13_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1975/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_13_/D (DFF_X1)                     0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_13_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_10_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1972/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_10_/D (DFF_X1)                     0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_10_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_18_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1980/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_18_/D (DFF_X1)                     0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_18_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_17_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1979/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_17_/D (DFF_X1)                     0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_17_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_18_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U72/ZN (INV_X32)                         0.01 &    20.01 r
+  U1998/ZN (AND2_X1)                       0.03 &    20.05 r
+  b_reg_18_/D (DFF_X1)                     0.00 &    20.05 r
+  data arrival time                                  20.05
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_18_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.05
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_9_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1971/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_9_/D (DFF_X1)                      0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_9_/CK (DFF_X1)                     0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_11_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1973/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_11_/D (DFF_X1)                     0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_11_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_3_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U82/ZN (INV_X16)                         0.01 &    20.01 r
+  U1957/ZN (AND2_X1)                       0.03 &    20.04 r
+  b_reg_3_/D (DFF_X1)                      0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_3_/CK (DFF_X1)                     0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_26_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U82/ZN (INV_X16)                         0.01 &    20.01 r
+  U1988/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_26_/D (DFF_X1)                     0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_26_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_27_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U72/ZN (INV_X32)                         0.01 &    20.01 r
+  U83/ZN (INV_X4)                          0.01 &    20.02 f
+  U1826/ZN (NOR2_X1)                       0.02 &    20.04 r
+  result_reg_reg_27_/D (DFF_X1)            0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_27_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_2_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U82/ZN (INV_X16)                         0.01 &    20.01 r
+  U1956/ZN (AND2_X1)                       0.03 &    20.04 r
+  b_reg_2_/D (DFF_X1)                      0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_2_/CK (DFF_X1)                     0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_8_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1970/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_8_/D (DFF_X1)                      0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_8_/CK (DFF_X1)                     0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_28_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U82/ZN (INV_X16)                         0.01 &    20.01 r
+  U1990/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_28_/D (DFF_X1)                     0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_28_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_24_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U82/ZN (INV_X16)                         0.01 &    20.01 r
+  U1986/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_24_/D (DFF_X1)                     0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_24_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_1_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U82/ZN (INV_X16)                         0.01 &    20.01 r
+  U1955/ZN (AND2_X1)                       0.03 &    20.04 r
+  b_reg_1_/D (DFF_X1)                      0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_1_/CK (DFF_X1)                     0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_23_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1704/ZN (AND2_X1)                       0.03 &    20.04 r
+  result_reg_reg_23_/D (DFF_X1)            0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_23_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_7_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1969/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_7_/D (DFF_X1)                      0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_7_/CK (DFF_X1)                     0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_6_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U2017/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_6_/D (DFF_X1)                      0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_6_/CK (DFF_X1)                     0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_5_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U2016/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_5_/D (DFF_X1)                      0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_5_/CK (DFF_X1)                     0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_27_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U82/ZN (INV_X16)                         0.01 &    20.01 r
+  U1989/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_27_/D (DFF_X1)                     0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_27_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_4_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U2015/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_4_/D (DFF_X1)                      0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_4_/CK (DFF_X1)                     0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_25_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1699/ZN (AND2_X1)                       0.03 &    20.04 r
+  result_reg_reg_25_/D (DFF_X1)            0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_25_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_24_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U1702/ZN (AND2_X1)                       0.03 &    20.04 r
+  result_reg_reg_24_/D (DFF_X1)            0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_24_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_25_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U82/ZN (INV_X16)                         0.01 &    20.01 r
+  U1987/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_25_/D (DFF_X1)                     0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_25_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_31_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U85/ZN (INV_X16)                         0.01 &    20.01 r
+  U3/ZN (NAND2_X1)                         0.02 &    20.03 f
+  U1725/ZN (INV_X1)                        0.01 &    20.04 r
+  result_reg_reg_31_/D (DFF_X1)            0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_31_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.03       4.83
+  data required time                                  4.83
+  -----------------------------------------------------------
+  data required time                                  4.83
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_12_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U1467/ZN (NOR2_X1)                       0.04 &    20.04 r
+  result_reg_reg_12_/D (DFF_X1)            0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_12_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U1823/ZN (NOR2_X1)                       0.04 &    20.04 r
+  result_reg_reg_4_/D (DFF_X1)             0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_4_/CK (DFF_X1)            0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U1821/ZN (NOR2_X1)                       0.04 &    20.04 r
+  result_reg_reg_1_/D (DFF_X1)             0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_1_/CK (DFF_X1)            0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_1_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U2012/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_1_/D (DFF_X1)                      0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_1_/CK (DFF_X1)                     0.00       4.85 r
+  library setup time                      -0.03       4.83
+  data required time                                  4.83
+  -----------------------------------------------------------
+  data required time                                  4.83
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_28_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U72/ZN (INV_X32)                         0.01 &    20.01 r
+  U83/ZN (INV_X4)                          0.01 &    20.02 f
+  U1818/ZN (NOR2_X1)                       0.02 &    20.04 r
+  result_reg_reg_28_/D (DFF_X1)            0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_28_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_3_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U2014/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_3_/D (DFF_X1)                      0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_3_/CK (DFF_X1)                     0.00       4.85 r
+  library setup time                      -0.03       4.83
+  data required time                                  4.83
+  -----------------------------------------------------------
+  data required time                                  4.83
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_2_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U2013/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_2_/D (DFF_X1)                      0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_2_/CK (DFF_X1)                     0.00       4.85 r
+  library setup time                      -0.03       4.83
+  data required time                                  4.83
+  -----------------------------------------------------------
+  data required time                                  4.83
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U1822/ZN (NOR2_X1)                       0.04 &    20.04 r
+  result_reg_reg_0_/D (DFF_X1)             0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_0_/CK (DFF_X1)            0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: b_reg_29_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U4/ZN (INV_X8)                           0.01 &    20.01 r
+  U1968/ZN (AND2_X1)                       0.03 &    20.04 r
+  b_reg_29_/D (DFF_X1)                     0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  b_reg_29_/CK (DFF_X1)                    0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_10_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U1841/ZN (NOR2_X2)                       0.03 &    20.03 r
+  result_reg_reg_10_/D (DFF_X1)            0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_10_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: a_reg_0_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U73/ZN (INV_X32)                         0.01 &    20.01 r
+  U2011/ZN (AND2_X1)                       0.03 &    20.04 r
+  a_reg_0_/D (DFF_X1)                      0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  a_reg_0_/CK (DFF_X1)                     0.00       4.85 r
+  library setup time                      -0.03       4.83
+  data required time                                  4.83
+  -----------------------------------------------------------
+  data required time                                  4.83
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.22
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U1840/ZN (NOR2_X2)                       0.03 &    20.03 r
+  result_reg_reg_9_/D (DFF_X1)             0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_9_/CK (DFF_X1)            0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.21
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_26_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U72/ZN (INV_X32)                         0.01 &    20.01 r
+  U83/ZN (INV_X4)                          0.01 &    20.02 f
+  U1832/ZN (NOR2_X1)                       0.02 &    20.04 r
+  result_reg_reg_26_/D (DFF_X1)            0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_26_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.21
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_17_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U1843/ZN (NOR2_X1)                       0.03 &    20.03 r
+  result_reg_reg_17_/D (DFF_X1)            0.00 &    20.03 r
+  data arrival time                                  20.03
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_17_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.03
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.21
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_22_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U72/ZN (INV_X32)                         0.01 &    20.01 r
+  U83/ZN (INV_X4)                          0.01 &    20.02 f
+  U1851/ZN (NOR2_X1)                       0.02 &    20.04 r
+  result_reg_reg_22_/D (DFF_X1)            0.00 &    20.04 r
+  data arrival time                                  20.04
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_22_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.21
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U1835/ZN (NOR2_X2)                       0.03 &    20.03 r
+  result_reg_reg_8_/D (DFF_X1)             0.00 &    20.03 r
+  data arrival time                                  20.03
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_8_/CK (DFF_X1)            0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.03
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.21
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U1831/ZN (NOR2_X2)                       0.03 &    20.03 r
+  result_reg_reg_7_/D (DFF_X1)             0.00 &    20.03 r
+  data arrival time                                  20.03
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_7_/CK (DFF_X1)            0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.03
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.21
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_18_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U1839/ZN (NOR2_X1)                       0.03 &    20.03 r
+  result_reg_reg_18_/D (DFF_X1)            0.00 &    20.03 r
+  data arrival time                                  20.03
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_18_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.03
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.21
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_11_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U1842/ZN (NOR2_X2)                       0.03 &    20.03 r
+  result_reg_reg_11_/D (DFF_X1)            0.00 &    20.03 r
+  data arrival time                                  20.03
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_11_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.03
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.21
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_21_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U1850/ZN (NOR2_X1)                       0.03 &    20.03 r
+  result_reg_reg_21_/D (DFF_X1)            0.00 &    20.03 r
+  data arrival time                                  20.03
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_21_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.03
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.21
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_14_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U1838/ZN (NOR2_X2)                       0.03 &    20.03 r
+  result_reg_reg_14_/D (DFF_X1)            0.00 &    20.03 r
+  data arrival time                                  20.03
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_14_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.03
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.21
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_30_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U1801/ZN (NOR2_X1)                       0.03 &    20.03 r
+  result_reg_reg_30_/D (DFF_X1)            0.00 &    20.03 r
+  data arrival time                                  20.03
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_30_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.03
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.20
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: ERR_reg_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U1951/ZN (NOR2_X2)                       0.03 &    20.03 r
+  ERR_reg_reg/D (DFF_X1)                   0.00 &    20.03 r
+  data arrival time                                  20.03
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  ERR_reg_reg/CK (DFF_X1)                  0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.03
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.20
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: result_reg_reg_29_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  input external delay                    20.00      20.00 f
+  rst (in)                                 0.00      20.00 f
+  U1813/ZN (NOR2_X1)                       0.03 &    20.03 r
+  result_reg_reg_29_/D (DFF_X1)            0.00 &    20.03 r
+  data arrival time                                  20.03
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (propagated)         0.05       5.05
+  clock uncertainty                       -0.20       4.85
+  result_reg_reg_29_/CK (DFF_X1)           0.00       4.85 r
+  library setup time                      -0.03       4.82
+  data required time                                  4.82
+  -----------------------------------------------------------
+  data required time                                  4.82
+  data arrival time                                 -20.03
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -15.20
+
+
+1

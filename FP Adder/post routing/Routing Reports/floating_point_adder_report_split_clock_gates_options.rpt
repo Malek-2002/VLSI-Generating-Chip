@@ -1,0 +1,15 @@
+ 
+****************************************
+Report : split_clock_gates options
+Design : floating_point_adder
+Version: G-2012.06-ICC-SP2
+Date   : Tue Dec 29 03:23:23 2015
+****************************************
+
+    slack margin:    tool set
+    dont_touch honored:    false
+    size_only honored:     false
+    Run compile_clock_tree: true
+    Run balance_inter_clock_delay: false
+    Run remove_clock_tree: true
+1

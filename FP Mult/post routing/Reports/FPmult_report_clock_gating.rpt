@@ -1,0 +1,24 @@
+ 
+****************************************
+Report : clock_gating
+Design : FPmult
+Version: G-2012.06-ICC-SP2
+Date   : Tue Dec 29 03:33:27 2015
+****************************************
+
+
+
+                             Clock Gating Summary
+          ------------------------------------------------------------
+          |    Number of Clock gating elements    |        0         |
+          |                                       |                  |
+          |    Number of Gated registers          |     0 (0.00%)    |
+          |                                       |                  |
+          |    Number of Ungated registers        |    96 (100.00%)  |
+          |                                       |                  |
+          |    Total number of registers          |       96         |
+          ------------------------------------------------------------
+
+
+
+1

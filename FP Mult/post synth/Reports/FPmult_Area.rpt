@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : FPmult
+Version: G-2012.06-SP2
+Date   : Mon Dec 28 22:16:07 2015
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    NangateOpenCellLibrary_ss0p95vn40c (File: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95vn40c.db)
+
+Number of ports:                           98
+Number of nets:                           370
+Number of cells:                          270
+Number of combinational cells:            172
+Number of sequential cells:                96
+Number of macros:                           0
+Number of buf/inv:                         30
+Number of references:                      17
+
+Combinational area:       3168.326006
+Buf/Inv area:              124.221999
+Noncombinational area:     434.111984
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:          3602.437990
+Total area:                 undefined
+1

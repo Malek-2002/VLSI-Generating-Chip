@@ -1,0 +1,57 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort high
+Design : floating_point_adder
+Version: U-2022.12-SP7
+Date   : Fri Dec 29 00:55:26 2023
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary_ss0p95vn40c (File: /home/user3/Downloads/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95vn40c.db)
+
+
+Operating Conditions: worst_low   Library: NangateOpenCellLibrary_ss0p95vn40c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+floating_point_adder   5K_hvratio_1_1    NangateOpenCellLibrary_ss0p95vn40c
+
+
+Global Operating Voltage = 0.95 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+floating_point_adder                     14.592   27.295 1.40e+04   55.867 100.0
+  sub_62 (floating_point_adder_DW01_sub_26)
+                                          0.222    0.222  155.155    0.598   1.1
+  srl_62 (floating_point_adder_DW_rash_1)
+                                          1.370    0.731 1.15e+03    3.248   5.8
+  sub_63 (floating_point_adder_DW01_sub_25)
+                                          0.222    0.222  155.083    0.599   1.1
+  srl_63 (floating_point_adder_DW_rash_0)
+                                          1.369    0.731 1.15e+03    3.248   5.8
+  add_68 (floating_point_adder_DW01_add_0)
+                                          0.159    0.380  298.900    0.838   1.5
+  sub_68 (floating_point_adder_DW01_sub_24)
+                                          0.408    0.646  459.718    1.514   2.7
+  sub_68_2 (floating_point_adder_DW01_sub_23)
+                                          0.417    0.656  458.611    1.531   2.7
+  add_98 (floating_point_adder_DW01_inc_0)
+                                       4.64e-02    0.124   71.137    0.241   0.4
+  eq_129 (floating_point_adder_DW01_cmp6_0)
+                                          0.178    0.413  304.572    0.896   1.6
+1

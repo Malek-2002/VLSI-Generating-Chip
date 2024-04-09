@@ -1,0 +1,29 @@
+ 
+****************************************
+Report : area
+Design : floating_point_adder
+Version: G-2012.06-ICC-SP2
+Date   : Tue Dec 29 03:23:21 2015
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary_ss0p95vn40c (File: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95vn40c.db)
+
+Number of ports:                          104
+Number of nets:                          1659
+Number of cells:                         1423
+Number of combinational cells:           1314
+Number of sequential cells:               100
+Number of macros:                           0
+Number of buf/inv:                        291
+Number of references:                      58
+
+Combinational area:       2517.158004
+Buf/Inv area:              312.816001
+Noncombinational area:     452.199984
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:          2969.357988
+Total area:                 undefined
+1

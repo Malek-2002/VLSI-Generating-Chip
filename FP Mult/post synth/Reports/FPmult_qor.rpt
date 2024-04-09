@@ -1,0 +1,68 @@
+ 
+****************************************
+Report : qor
+Design : FPmult
+Version: G-2012.06-SP2
+Date   : Mon Dec 28 22:16:07 2015
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:              63.00
+  Critical Path Length:          4.48
+  Critical Path Slack:           0.49
+  Critical Path Clk Period:      5.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          3
+  Hierarchical Port Count:        263
+  Leaf Cell Count:               1714
+  Buf/Inv Cell Count:             188
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:      1618
+  Sequential Cell Count:           96
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:     3168.326006
+  Noncombinational Area:   434.111984
+  Buf/Inv Area:            124.221999
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:              3602.437990
+  Design Area:            3602.437990
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          2298
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: localhost.localdomain
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.74
+  Logic Optimization:                  0.38
+  Mapping Optimization:                0.57
+  -----------------------------------------
+  Overall Compile Time:                1.97
+  Overall Compile Wall Clock Time:     3.54
+
+1

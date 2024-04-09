@@ -1,0 +1,11 @@
+=====CLOCK: clk=====
+Enable multicorner optimization: 
+Gate sizing: true
+Gate relocation: true
+Preserve levels: false
+Area recovery: true
+Balance rc: false
+Relax insertion delay: false
+DRC fixing: false
+Information: The -balance_rc option is set to false by default, because there are single CTS corner(s). (CTS-1121)
+1

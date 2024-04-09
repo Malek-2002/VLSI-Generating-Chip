@@ -1,0 +1,9 @@
+
+Clock Planning Options:
+-clock_nets: none
+-route_mode: none
+-anchor_cell: none
+-output_directory: ./cp_output
+-keep_block_tree: true
+-update_clock_latency: false
+1

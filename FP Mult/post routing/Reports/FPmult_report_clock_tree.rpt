@@ -1,0 +1,71 @@
+ 
+****************************************
+Report : clock tree
+Design : FPmult
+Version: G-2012.06-ICC-SP2
+Date   : Tue Dec 29 03:33:27 2015
+****************************************
+
+Information: Float pin scale factor for the 'max' operating condition of scenario 'default' is set to 1.000 (CTS-375)
+
+============ Global Skew Report ================
+
+Clock Tree Name                : "clk"
+Clock Period                   : 5.00000        
+Clock Tree root pin            : "clk"
+Number of Levels               : 3
+Number of Sinks                : 96
+Number of CT Buffers           : 2
+Number of CTS added gates      : 0
+Number of Preexisting Gates    : 0
+Number of Preexisting Buf/Inv  : 0
+Total Number of Clock Cells    : 2
+Total Area of CT Buffers       : 17.55600       
+Total Area of CT cells         : 17.55600       
+Max Global Skew                : 0.00952   
+Number of MaxTran Violators    : 0
+Number of MaxCap Violators     : 0
+Number of MaxFanout Violators  : 0
+
+
+Operating Condition               worst
+Clock global Skew                 0.010
+Longest path delay                0.034
+Shortest path delay               0.025
+
+The longest path delay end pin: result_reg_reg_3_/CK
+The shortest path delay end pin: result_reg_reg_25_/CK
+
+The longest Path:
+Pin           Cap                 Fanout    Trans     Incr      Arri
+--------------------------------------------------------------------------------
+clk           0.000                      1  0.000     0.000     0.000     r
+clk           45.756                     1  0.000     0.000     0.000     r
+INV_X32_BC/A  45.756                     1  0.001     0.001     0.001     r
+INV_X32_BC/ZN 46.517                     1  0.003     0.005     0.006     f
+INV_X32_BC_1/A
+              46.517                     1  0.003     0.003     0.009     f
+INV_X32_BC_1/ZN
+              118.863                   96  0.008     0.014     0.023     r
+result_reg_reg_3_/CK
+              118.863                    0  0.011     0.011     0.034     r
+[clock delay]                                                   0.034
+--------------------------------------------------------------------------------
+
+The Shortest Path:
+Pin           Cap                 Fanout    Trans     Incr      Arri
+--------------------------------------------------------------------------------
+clk           0.000                      1  0.000     0.000     0.000     r
+clk           45.756                     1  0.000     0.000     0.000     r
+INV_X32_BC/A  45.756                     1  0.001     0.001     0.001     r
+INV_X32_BC/ZN 46.517                     1  0.003     0.005     0.006     f
+INV_X32_BC_1/A
+              46.517                     1  0.003     0.003     0.009     f
+INV_X32_BC_1/ZN
+              118.863                   96  0.008     0.014     0.023     r
+result_reg_reg_25_/CK
+              118.863                    0  0.008     0.002     0.025     r
+[clock delay]                                                   0.025
+--------------------------------------------------------------------------------
+
+1

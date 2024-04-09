@@ -1,0 +1,73 @@
+ 
+****************************************
+Report : resources
+Design : floating_point_adder
+Version: U-2022.12-SP7
+Date   : Fri Dec 29 00:55:26 2023
+****************************************
+
+Resource Sharing Report for design floating_point_adder in file
+        ./source/floating_point_adder.v
+
+===============================================================================
+|          |              |            | Contained     |                      |
+| Resource | Module       | Parameters | Resources     | Contained Operations |
+===============================================================================
+| r167     | DW01_cmp6    | width=8    |               | gt_66 gte_62 gte_63  |
+| r172     | DW01_cmp2    | width=24   |               | gt_68 gt_70_2        |
+|          |              |            |               | gt_70_3              |
+| r236     | DW01_sub     | width=8    |               | sub_62               |
+| r238     | DW_rash      | A_width=24 |               | srl_62               |
+|          |              | SH_width=8 |               |                      |
+| r240     | DW01_sub     | width=8    |               | sub_63               |
+| r242     | DW_rash      | A_width=24 |               | srl_63               |
+|          |              | SH_width=8 |               |                      |
+| r244     | DW01_add     | width=25   |               | add_68               |
+| r246     | DW01_sub     | width=25   |               | sub_68               |
+| r248     | DW01_sub     | width=25   |               | sub_68_2             |
+| r250     | DW01_sub     | width=8    |               | sub_89_aco           |
+| r252     | DW01_sub     | width=8    |               | sub_89_I2_aco        |
+| r254     | DW01_sub     | width=8    |               | sub_89_I3_aco        |
+| r256     | DW01_sub     | width=8    |               | sub_89_I4_aco        |
+| r258     | DW01_sub     | width=8    |               | sub_89_I5_aco        |
+| r260     | DW01_sub     | width=8    |               | sub_89_I6_aco        |
+| r262     | DW01_sub     | width=8    |               | sub_89_I7_aco        |
+| r264     | DW01_sub     | width=8    |               | sub_89_I8_aco        |
+| r266     | DW01_sub     | width=8    |               | sub_89_I9_aco        |
+| r268     | DW01_sub     | width=8    |               | sub_89_I10_aco       |
+| r270     | DW01_sub     | width=8    |               | sub_89_I11_aco       |
+| r272     | DW01_sub     | width=8    |               | sub_89_I12_aco       |
+| r274     | DW01_sub     | width=8    |               | sub_89_I13_aco       |
+| r276     | DW01_sub     | width=8    |               | sub_89_I14_aco       |
+| r278     | DW01_sub     | width=8    |               | sub_89_I15_aco       |
+| r280     | DW01_sub     | width=8    |               | sub_89_I16_aco       |
+| r282     | DW01_sub     | width=8    |               | sub_89_I17_aco       |
+| r284     | DW01_sub     | width=8    |               | sub_89_I18_aco       |
+| r286     | DW01_sub     | width=8    |               | sub_89_I19_aco       |
+| r288     | DW01_sub     | width=8    |               | sub_89_I20_aco       |
+| r290     | DW01_sub     | width=8    |               | sub_89_I21_aco       |
+| r292     | DW01_sub     | width=8    |               | sub_89_I22_aco       |
+| r294     | DW01_sub     | width=8    |               | sub_89_I23_aco       |
+| r296     | DW01_cmp2    | width=8    |               | lt_97                |
+| r298     | DW01_inc     | width=8    |               | add_98               |
+| r300     | DW01_cmp6    | width=31   |               | eq_129               |
+===============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| sub_62             | DW01_sub         | rpl                |                |
+| srl_62             | DW_rash          | mx2                |                |
+| sub_63             | DW01_sub         | rpl                |                |
+| srl_63             | DW_rash          | mx2                |                |
+| add_68             | DW01_add         | rpl                |                |
+| sub_68             | DW01_sub         | rpl                |                |
+| sub_68_2           | DW01_sub         | rpl                |                |
+| add_98             | DW01_inc         | rpl                |                |
+| eq_129             | DW01_cmp6        | rpl                |                |
+===============================================================================
+
+1

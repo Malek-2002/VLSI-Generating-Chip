@@ -1,0 +1,36 @@
+ 
+****************************************
+Report : resources
+Design : FPmult
+Version: G-2012.06-SP2
+Date   : Mon Dec 28 22:16:07 2015
+****************************************
+
+Resource Sharing Report for design FPmult in file
+        /home/ahesham/Desktop/Teaching/johnson/syn/source/FPmult.v
+
+===============================================================================
+|          |              |            | Contained     |                      |
+| Resource | Module       | Parameters | Resources     | Contained Operations |
+===============================================================================
+| r179     | DW02_mult    | A_width=24 |               | mult_32              |
+|          |              | B_width=24 |               |                      |
+| r181     | DW01_sub     | width=8    |               | sub_1_root_sub_1_root_add_35_2 |
+| r183     | DW01_add     | width=8    |               | add_0_root_sub_1_root_add_35_2 |
+| r185     | DW01_add     | width=8    |               | add_2_root_sub_1_root_add_35_2 |
+===============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| mult_32            | DW02_mult        | csa                |                |
+| add_2_root_sub_1_root_add_35_2        |                    |                |
+|                    | DW01_add         | rpl                |                |
+===============================================================================
+
+
+No multiplexors to report
+1
